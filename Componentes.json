@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "ultima_actualizacion": "2026-02-06T00:12"
+  },
+  "componentes": {
+    "res_10k_025w": {
+      "id": "res_10k_025w",
+      "nombre": "Resistencia 10k 1/4W",
+      "categoria": "Resistencias",
+      "cantidad_total": 94,
+      "ubicacion": "Caja A3",
+      "datasheet_url": "https://example.com/datasheet_res_10k.pdf",
+      "proyectos": {
+        "Amplificador": 14,
+        "Fuente_12V": 2
+      },
+      "ultima_compra": {
+        "fecha": "2025-01-12",
+        "precio_unitario": 0.03,
+        "cantidad": 100,
+        "proveedor": "Mouser"
+      },
+      "historial": [
+        {
+          "fecha": "2025-01-12T10:23:00",
+          "accion": "compra",
+          "cantidad": 100,
+          "precio_unitario": 0.03,
+          "nota": "Compra inicial"
+        },
+        {
+          "fecha": "2026-01-20T18:40:00",
+          "accion": "uso",
+          "cantidad": -6,
+          "proyecto": "Amplificador"
+        },
+        {
+          "fecha": "2026-02-05T19:41",
+          "accion": "uso",
+          "cantidad": -2,
+          "proyecto": "Amplificador"
+        },
+        {
+          "fecha": "2026-02-05T19:42",
+          "accion": "uso",
+          "cantidad": -2,
+          "proyecto": "Amplificador"
+        },
+        {
+          "fecha": "2026-02-05T19:42",
+          "accion": "uso",
+          "cantidad": -2,
+          "proyecto": "Amplificador"
+        },
+        {
+          "fecha": "2026-02-05T19:42",
+          "accion": "uso",
+          "cantidad": -2,
+          "proyecto": "Amplificador"
+        },
+        {
+          "fecha": "2026-02-05T19:42",
+          "accion": "uso",
+          "cantidad": -2,
+          "proyecto": "Amplificador"
+        }
+      ],
+      "ultima_modificacion": "2026-02-05T19:42",
+      "agotado": false
+    },
+    "cap_100n_50v": {
+      "id": "cap_100n_50v",
+      "nombre": "Condensador cerámico 100nF 50V",
+      "categoria": "Condensadores",
+      "cantidad_total": 0,
+      "ubicacion": "Caja B1",
+      "datasheet_url": "https://example.com/datasheet_100n.pdf",
+      "proyectos": {},
+      "ultima_compra": {
+        "fecha": "2024-09-03",
+        "precio_unitario": 0.05,
+        "cantidad": 50,
+        "proveedor": "Aliexpress"
+      },
+      "historial": [
+        {
+          "fecha": "2024-09-03T09:00:00",
+          "accion": "compra",
+          "cantidad": 50,
+          "precio_unitario": 0.05
+        },
+        {
+          "fecha": "2025-06-14T14:30:00",
+          "accion": "uso",
+          "cantidad": -50,
+          "proyecto": "Prototipo sensor"
+        }
+      ],
+      "ultima_modificacion": "2025-06-14T14:30:00",
+      "agotado": true
+    }
+  }
+}
