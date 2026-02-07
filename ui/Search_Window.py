@@ -48,38 +48,44 @@ def search_component(self):
 
                 detail_popup = tk.Toplevel(popup)
                 detail_popup.title(f"Detalles de {c.nombre}")
-                detail_popup.geometry("500x600")
+                detail_popup.geometry("700x800")
                 detail_popup.configure(bg="#333333")
 
-                def info(popup, texto, x, y, tamaño=12):
-                    label = tk.Label(popup, text=texto, bg="#333333", fg="white", font=("Arial", tamaño))
+                def info(popup, texto, x, y, tamaño=12, color="white"):
+                    label = tk.Label(popup, text=texto, bg="#333333", fg=color, font=("Arial", tamaño))
                     label.place(x=x, y=y)
 
                 y = 20  # posición inicial
 
                 # Campos básicos
                 if c.id: 
-                    info(detail_popup, f"ID: {c.id}", 20, y)
+                    info(detail_popup, "ID:", 20, y, color="red")
+                    info(detail_popup, f" {c.id}", 60, y, color="white")
                     y += 30
                 if c.nombre: 
-                    info(detail_popup, f"Nombre: {c.nombre}", 20, y)
+                    info(detail_popup, "Nombre:", 20, y, color="red")
+                    info(detail_popup, f" {c.nombre}", 90, y, color="white")
                     y += 30
                 if c.categoria: 
-                    info(detail_popup, f"Categoría: {c.categoria}", 20, y)
+                    info(detail_popup, "Categoria:", 20, y, color="red")
+                    info(detail_popup, f" {c.categoria}", 100, y, color="white")
                     y += 30
                 if c.cantidad_total: 
-                    info(detail_popup, f"Cantidad: {c.cantidad_total}", 20, y)
+                    info(detail_popup, "Cantidad:", 20, y, color="red")
+                    info(detail_popup, f" {c.cantidad_total}", 100, y, color="white")
                     y += 30
-                if c.ubicacion: 
-                    info(detail_popup, f"Ubicación: {c.ubicacion}", 20, y)
+                if c.ubicacion:
+                    info(detail_popup, "Ubicacion:", 20, y, color="red")
+                    info(detail_popup, f" {c.ubicacion}", 100, y, color="white")
                     y += 30
                 if c.datasheet_url: 
-                    info(detail_popup, f"Datasheet: {c.datasheet_url}", 20, y)
+                    info(detail_popup, "Datasheet:", 20, y, color="red")
+                    info(detail_popup, f" {c.datasheet_url}", 100, y, color="white")
                     y += 30
 
                 # Proyectos
                 if c.proyectos:
-                    info(detail_popup, "Proyectos:", 20, y)
+                    info(detail_popup, "Proyectos:", 20, y, color="red")
                     y += 30
                     for p, qty in c.proyectos.items():
                         if qty:  # solo mostrar si hay cantidad
@@ -88,7 +94,7 @@ def search_component(self):
 
                 # Última compra
                 if c.ultima_compra:
-                    info(detail_popup, "Última compra:", 20, y)
+                    info(detail_popup, "Ultima Compra:", 20, y, color="red")
                     y += 30
                     compra = c.ultima_compra
                     if compra.get('fecha'): 
@@ -106,7 +112,7 @@ def search_component(self):
 
                 # Historial (últimos 5)
                 if c.historial:
-                    info(detail_popup, "Historial:", 20, y)
+                    info(detail_popup, "Historial:", 20, y, color="red")
                     y += 30
                     for h in c.historial[-5:]:
                         texto_hist = " - ".join(str(h.get(k, "")) for k in ['fecha','accion','cantidad','proyecto'] if h.get(k))
@@ -114,7 +120,7 @@ def search_component(self):
                             info(detail_popup, texto_hist, 40, y)
                             y += 30
 
-                tk.Button(detail_popup, text="Terminar", bg="green", fg="white", command=detail_popup.destroy).place(x=275, y=550)
+                tk.Button(detail_popup, text="Terminar", bg="green", fg="white", command=detail_popup.destroy).place(x=600, y=750)
 
             result_tree.bind("<Double-1>", show_details)
 
