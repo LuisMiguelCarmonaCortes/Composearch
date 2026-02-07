@@ -94,8 +94,8 @@ def delete_component(self):
     button_search = tk.Button(popup, text="Buscar", bg="green", fg="white", command=search)
     button_search.place(x=80, y=550)
 
-    button_delete = tk.Button(popup, text="Eliminar", bg="red", fg="white", command=eliminar)
+    button_delete = tk.Button(popup, text="Borrar", bg="red", fg="white", command=eliminar)
     button_delete.place(x=180, y=550)
 
-    button_back = tk.Button(popup, text="Atras", bg="gray", fg="white", command=back)
+    button_back = tk.Button(popup, text="Atras", bg="blue", fg="white", command=back)
     button_back.place(x=280, y=550)
