@@ -1,104 +1,424 @@
 {
   "metadata": {
     "version": "1.0",
-    "ultima_actualizacion": "2026-02-06T00:12"
+    "ultima_actualizacion": "2026-02-09T21:24"
   },
   "componentes": {
-    "res_10k_025w": {
-      "id": "res_10k_025w",
-      "nombre": "Resistencia 10k 1/4W",
-      "categoria": "Resistencias",
-      "cantidad_total": 94,
-      "ubicacion": "Caja A3",
-      "datasheet_url": "https://example.com/datasheet_res_10k.pdf",
-      "proyectos": {
-        "Amplificador": 14,
-        "Fuente_12V": 2
-      },
-      "ultima_compra": {
-        "fecha": "2025-01-12",
-        "precio_unitario": 0.03,
-        "cantidad": 100,
-        "proveedor": "Mouser"
-      },
-      "historial": [
-        {
-          "fecha": "2025-01-12T10:23:00",
-          "accion": "compra",
-          "cantidad": 100,
-          "precio_unitario": 0.03,
-          "nota": "Compra inicial"
-        },
-        {
-          "fecha": "2026-01-20T18:40:00",
-          "accion": "uso",
-          "cantidad": -6,
-          "proyecto": "Amplificador"
-        },
-        {
-          "fecha": "2026-02-05T19:41",
-          "accion": "uso",
-          "cantidad": -2,
-          "proyecto": "Amplificador"
-        },
-        {
-          "fecha": "2026-02-05T19:42",
-          "accion": "uso",
-          "cantidad": -2,
-          "proyecto": "Amplificador"
-        },
-        {
-          "fecha": "2026-02-05T19:42",
-          "accion": "uso",
-          "cantidad": -2,
-          "proyecto": "Amplificador"
-        },
-        {
-          "fecha": "2026-02-05T19:42",
-          "accion": "uso",
-          "cantidad": -2,
-          "proyecto": "Amplificador"
-        },
-        {
-          "fecha": "2026-02-05T19:42",
-          "accion": "uso",
-          "cantidad": -2,
-          "proyecto": "Amplificador"
-        }
-      ],
-      "ultima_modificacion": "2026-02-05T19:42",
+    "Comu_MAX232": {
+      "id": "Comu_MAX232",
+      "nombre": "MAX232",
+      "categoria": "Chips",
+      "cantidad_total": 10,
+      "ubicacion": "Cajon 1_2",
+      "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/view/73050/MAXIM/MAX2323.html",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T19:32",
       "agotado": false
     },
-    "cap_100n_50v": {
-      "id": "cap_100n_50v",
-      "nombre": "Condensador cerámico 100nF 50V",
-      "categoria": "Condensadores",
-      "cantidad_total": 0,
-      "ubicacion": "Caja B1",
-      "datasheet_url": "https://example.com/datasheet_100n.pdf",
+    "NPN_BC847BS": {
+      "id": "NPN_BC847BS",
+      "nombre": "BC847BS",
+      "categoria": "Transistores",
+      "cantidad_total": 20,
+      "ubicacion": "Cajon 1_3",
+      "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/view/16117/PHILIPS/BC847BS.html",
       "proyectos": {},
-      "ultima_compra": {
-        "fecha": "2024-09-03",
-        "precio_unitario": 0.05,
-        "cantidad": 50,
-        "proveedor": "Aliexpress"
-      },
-      "historial": [
-        {
-          "fecha": "2024-09-03T09:00:00",
-          "accion": "compra",
-          "cantidad": 50,
-          "precio_unitario": 0.05
-        },
-        {
-          "fecha": "2025-06-14T14:30:00",
-          "accion": "uso",
-          "cantidad": -50,
-          "proyecto": "Prototipo sensor"
-        }
-      ],
-      "ultima_modificacion": "2025-06-14T14:30:00",
-      "agotado": true
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T19:35",
+      "agotado": false
+    },
+    "Micro_SD": {
+      "id": "Micro_SD",
+      "nombre": "Micro_SD",
+      "categoria": "Misc",
+      "cantidad_total": 10,
+      "ubicacion": "Cajon 1_4",
+      "datasheet_url": "NA",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T19:36",
+      "agotado": false
+    },
+    "DC_MT3608": {
+      "id": "DC_MT3608",
+      "nombre": "MT3608",
+      "categoria": "Chips",
+      "cantidad_total": 10,
+      "ubicacion": "Cajon 1_5",
+      "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/view/1131968/ETC1/MT3608.html",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T19:38",
+      "agotado": false
+    },
+    "Res_DS1803": {
+      "id": "Res_DS1803",
+      "nombre": "DS1803",
+      "categoria": "Chips",
+      "cantidad_total": 5,
+      "ubicacion": "Cajon 1_6",
+      "datasheet_url": "https://www.alldatasheet.es/datasheet-pdf/view/58535/DALLAS/DS1803.html",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T19:40",
+      "agotado": false
+    },
+    "Mem_AT24C128": {
+      "id": "Mem_AT24C128",
+      "nombre": "AT24C128",
+      "categoria": "Chips",
+      "cantidad_total": 19,
+      "ubicacion": "Cajon 1_7",
+      "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/view/56064/ATMEL/AT24C128.html",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T19:43",
+      "agotado": false
+    },
+    "DC_LM2596": {
+      "id": "DC_LM2596",
+      "nombre": "LM2596",
+      "categoria": "Chips",
+      "cantidad_total": 10,
+      "ubicacion": "Cajon 1_8",
+      "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/view/2032213/ONSEMI/LM2596.html",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T19:45",
+      "agotado": false
+    },
+    "Reg_74HC374": {
+      "id": "Reg_74HC374",
+      "nombre": "74HC374",
+      "categoria": "Chips",
+      "cantidad_total": 10,
+      "ubicacion": "Cajon 2_1",
+      "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/pdf/15593/PHILIPS/74HC374.html",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T19:48",
+      "agotado": false
+    },
+    "Dec_74HC138": {
+      "id": "Dec_74HC138",
+      "nombre": "74HC138",
+      "categoria": "Chips",
+      "cantidad_total": 10,
+      "ubicacion": "Cajon 2_1",
+      "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/pdf/15535/PHILIPS/74HC138.html",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T19:50",
+      "agotado": false
+    },
+    "M_JDY_23": {
+      "id": "M_JDY_23",
+      "nombre": "JDY-23",
+      "categoria": "Modulo",
+      "cantidad_total": 5,
+      "ubicacion": "Cajon 2_3",
+      "datasheet_url": "https://fcc.report/FCC-ID/2AXM8-JDY-23/4936741.pdf",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T19:54",
+      "agotado": false
+    },
+    "Reg_74HC595": {
+      "id": "Reg_74HC595",
+      "nombre": "74HC595",
+      "categoria": "Chips",
+      "cantidad_total": 11,
+      "ubicacion": "Cajon 2_4",
+      "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/view/12198/ONSEMI/74HC595.html",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T19:56",
+      "agotado": false
+    },
+    "Reg_74HC165": {
+      "id": "Reg_74HC165",
+      "nombre": "74HC165",
+      "categoria": "Chips",
+      "cantidad_total": 8,
+      "ubicacion": "Cajon 2_5",
+      "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/view/15549/PHILIPS/74HC165.html",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T19:58",
+      "agotado": false
+    },
+    "CLK_CD4060": {
+      "id": "CLK_CD4060",
+      "nombre": "CD4060",
+      "categoria": "Chips",
+      "cantidad_total": 4,
+      "ubicacion": "Cajon 2_6",
+      "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/pdf/26880/TI/CD4060.html",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T20:02",
+      "agotado": false
+    },
+    "7_SEG": {
+      "id": "7_SEG",
+      "nombre": "7_Segmentos",
+      "categoria": "Misc",
+      "cantidad_total": 5,
+      "ubicacion": "Cajon 2_7",
+      "datasheet_url": "https://controlautomaticoeducacion.com/sistemas-embebidos/micropython/display-7-segmentos-pico/",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T20:03",
+      "agotado": false
+    },
+    "Con_2_2.54": {
+      "id": "Con_2_2.54",
+      "nombre": "terminal_block",
+      "categoria": "Chips",
+      "cantidad_total": 20,
+      "ubicacion": "Cajon 2_8",
+      "datasheet_url": "",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T20:05",
+      "agotado": false
+    },
+    "USB_C": {
+      "id": "USB_C",
+      "nombre": "USB_C_12_pins",
+      "categoria": "Misc",
+      "cantidad_total": 9,
+      "ubicacion": "Cajon 3_1",
+      "datasheet_url": "https://cdn.sparkfun.com/assets/e/b/4/f/7/USB-C_Datasheet.pdf",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T20:15",
+      "agotado": false
+    },
+    "Led_WS2812B": {
+      "id": "Led_WS2812B",
+      "nombre": "WS2812B",
+      "categoria": "Misc",
+      "cantidad_total": 49,
+      "ubicacion": "Cajon 3_2",
+      "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/pdf/1134590/WORLDSEMI/WS2818B.html",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T20:20",
+      "agotado": false
+    },
+    "Diodo_SS34": {
+      "id": "Diodo_SS34",
+      "nombre": "SS34",
+      "categoria": "Diodo",
+      "cantidad_total": 100,
+      "ubicacion": "Cajon 3_3",
+      "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/view/502968/CHENDA/SS34.html",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T20:22",
+      "agotado": false
+    },
+    "Con_JST_1.25": {
+      "id": "Con_JST_1.25",
+      "nombre": "JST_1.25",
+      "categoria": "Misc",
+      "cantidad_total": 20,
+      "ubicacion": "Cajon 3_4",
+      "datasheet_url": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T20:25",
+      "agotado": false
+    },
+    "CH340C": {
+      "id": "CH340C",
+      "nombre": "CH340C",
+      "categoria": "Chips",
+      "cantidad_total": 8,
+      "ubicacion": "Cajon 3_5",
+      "datasheet_url": "https://www.mpja.com/download/35227cpdata.pdf",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T20:28",
+      "agotado": false
+    },
+    "Micr_CH32V003A4M6": {
+      "id": "Micr_CH32V003A4M6",
+      "nombre": "CH32VA4M6",
+      "categoria": "Microcontroladores",
+      "cantidad_total": 6,
+      "ubicacion": "Cajon 3_6",
+      "datasheet_url": "https://akizukidenshi.com/goodsaffix/CH32V003.pdf",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T20:30",
+      "agotado": false
+    },
+    "Micr_CH32V003F4P6": {
+      "id": "Micr_CH32V003F4P6",
+      "nombre": "CH32V003F4P6",
+      "categoria": "Microcontroladores",
+      "cantidad_total": 5,
+      "ubicacion": "Cajon 3_7",
+      "datasheet_url": "https://akizukidenshi.com/goodsaffix/CH32V003.pdf",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T20:31",
+      "agotado": false
+    },
+    "Esp_8089": {
+      "id": "Esp_8089",
+      "nombre": "ESP8089",
+      "categoria": "Chips",
+      "cantidad_total": 5,
+      "ubicacion": "Cajon 3_8",
+      "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/view/1222738/ESPRESSIF/ESP8089.html",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T20:33",
+      "agotado": false
+    },
+    "Bob_CD74R_22uH": {
+      "id": "Bob_CD74R_22uH",
+      "nombre": "CD74R_22uH",
+      "categoria": "Bobina",
+      "cantidad_total": 20,
+      "ubicacion": "Cajon 4_1",
+      "datasheet_url": "https://www.mouser.com/datasheet/2/390/CDRH74-10903.pdf?srsltid=AfmBOooLicKNkEVJI-p2Utp38s8Y2fjy_IMgaxfvUbcCs7t7NcxZJ01V",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T20:43",
+      "agotado": false
+    },
+    "Bot_6mm": {
+      "id": "Bot_6mm",
+      "nombre": "BOTONES_6mm",
+      "categoria": "Misc",
+      "cantidad_total": 41,
+      "ubicacion": "Cajon 4_2",
+      "datasheet_url": "NA",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T20:47",
+      "agotado": false
+    },
+    "Esp_8266": {
+      "id": "Esp_8266",
+      "nombre": "ESP8266",
+      "categoria": "Microcontroladores",
+      "cantidad_total": 3,
+      "ubicacion": "Cajon 4_3",
+      "datasheet_url": "https://documentation.espressif.com/0a-esp8266ex_datasheet_en.pdf",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T20:48",
+      "agotado": false
+    },
+    "Zener_BZ84C10": {
+      "id": "Zener_BZ84C10",
+      "nombre": "BZ84C10",
+      "categoria": "Diodo",
+      "cantidad_total": 100,
+      "ubicacion": "Cajon 4_4",
+      "datasheet_url": "https://www.alldatasheet.es/datasheet-pdf/view/17625/PHILIPS/BZX84-C10.html",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T20:51",
+      "agotado": false
+    },
+    "Con_SMD_IPX": {
+      "id": "Con_SMD_IPX",
+      "nombre": "SMC_IPX",
+      "categoria": "Misc",
+      "cantidad_total": 20,
+      "ubicacion": "Cajon 4_5",
+      "datasheet_url": "",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T20:54",
+      "agotado": false
+    },
+    "CLK_24Mhz": {
+      "id": "CLK_24Mhz",
+      "nombre": "Oscilador_24Mhz",
+      "categoria": "Misc",
+      "cantidad_total": 10,
+      "ubicacion": "Cajon 4_6",
+      "datasheet_url": "",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T20:58",
+      "agotado": false
+    },
+    "CLK_25MHz": {
+      "id": "CLK_25MHz",
+      "nombre": "Oscilador_25MHz",
+      "categoria": "Misc",
+      "cantidad_total": 10,
+      "ubicacion": "Cajon 4_7",
+      "datasheet_url": "NA",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T20:59",
+      "agotado": false
+    },
+    "PNP_AO3407": {
+      "id": "PNP_AO3407",
+      "nombre": "AO3407",
+      "categoria": "Transistores",
+      "cantidad_total": 91,
+      "ubicacion": "Cajon 4_8",
+      "datasheet_url": "",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T21:02",
+      "agotado": false
+    },
+    "Temp_LM75A": {
+      "id": "Temp_LM75A",
+      "nombre": "LM75A",
+      "categoria": "Chips",
+      "cantidad_total": 10,
+      "ubicacion": "Cajon 1_1",
+      "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/view/100961/PHILIPS/LM75A.html",
+      "proyectos": {},
+      "ultima_compra": null,
+      "historial": [],
+      "ultima_modificacion": "2026-02-09T21:24",
+      "agotado": false
     }
   }
 }

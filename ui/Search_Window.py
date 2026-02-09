@@ -24,7 +24,7 @@ def search_component(self):
             entry_name.place(x=150, y=60)
 
             tk.Label(popup, text="Categoría:", bg="#333333", fg="white").place(x=20, y=100)
-            categorias = ["", "Resistencias", "Condensadores", "Diodos", "Transistores"]  # Ejemplo
+            categorias = ["", "Resistencias", "Condensadores", "Diodos", "Transistores", "Misc", "Chips", "Bobinas", "Microcontroladores"]  # Ejemplo
             combo_categoria = ttk.Combobox(popup, values=categorias, state="readonly")
             combo_categoria.place(x=150, y=100)
 
