@@ -91,3 +91,33 @@ class ComponentService:
         comp["ultima_modificacion"] = self._now()
 
         self.storage.save(data)
+
+# ------------ Modificaciones de campos ---------------
+
+    def editar_campos(self, component_id: str, nombre: str = None,
+                        categoria: str = None, ubicacion: str = None,
+                        datasheet_url: str = None):
+            """
+            Modifica los campos de un componente que no sean cantidad.
+            """
+            data = self.storage.load()
+            comp = data["componentes"].get(component_id)
+
+            if not comp:
+                raise ValueError(f"Componente '{component_id}' no existe")
+
+            # Actualizar campos si se pasan valores
+            if nombre is not None:
+                comp["nombre"] = nombre.strip()
+            if categoria is not None:
+                comp["categoria"] = categoria.strip()
+            if ubicacion is not None:
+                comp["ubicacion"] = ubicacion.strip()
+            if datasheet_url is not None:
+                comp["datasheet_url"] = datasheet_url.strip()
+
+            # Actualizar metadata
+            comp["ultima_modificacion"] = self._now()
+
+            # Guardar cambios
+            self.storage.save(data)

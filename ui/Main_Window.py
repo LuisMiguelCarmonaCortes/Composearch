@@ -4,6 +4,7 @@ from ui.Component_Dialog import info, show_popup
 from ui.Add_Window import agregar_componente
 from ui.Search_Window import search_component
 from ui.Delete_Window import delete_component
+from ui.Modify_Window import modify_component
 
 WIDTH = 800
 HEIGHT = 600
@@ -23,7 +24,7 @@ class MainWindow(tk.Tk):
         button = tk.Button(self, text="BUSCAR", width=20, bg="blue", fg="white", command=lambda: search_component(self))
         button.place(x=330 , y=150)
 
-        button = tk.Button(self, text="MODIFICAR", width=20, bg="darkorange", fg="white")
+        button = tk.Button(self, text="MODIFICAR", width=20, bg="darkorange", fg="white", command=lambda: modify_component(self))
         button.place(x=330 , y=200)
 
         button = tk.Button(self, text="ELIMINAR", width=20, bg="red", fg="white", command=lambda: delete_component(self))
