@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "ultima_actualizacion": "2026-02-27T18:13"
+    "ultima_actualizacion": "2026-02-28T01:08"
   },
   "componentes": {
     "Comu_MAX232": {
@@ -113,12 +113,12 @@
       "nombre": "74HC138",
       "categoria": "Chips",
       "cantidad_total": 10,
-      "ubicacion": "Cajon 2_1",
+      "ubicacion": "Cajon 2_2",
       "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/pdf/15535/PHILIPS/74HC138.html",
       "proyectos": {},
       "ultima_compra": null,
       "historial": [],
-      "ultima_modificacion": "2026-02-09T19:50",
+      "ultima_modificacion": "2026-02-28T01:08",
       "agotado": false
     },
     "M_JDY_23": {
@@ -418,123 +418,6 @@
       "ultima_compra": null,
       "historial": [],
       "ultima_modificacion": "2026-02-09T21:24",
-      "agotado": false
-    },
-    "23": {
-      "id": "23",
-      "nombre": "prueba",
-      "categoria": "Bobina",
-      "cantidad_total": 16,
-      "ubicacion": "3s",
-      "datasheet_url": "",
-      "proyectos": {
-        "modificación": 26
-      },
-      "ultima_compra": {
-        "fecha": "2026-02-27",
-        "precio_unitario": 0,
-        "cantidad": 2,
-        "proveedor": "modificación"
-      },
-      "historial": [
-        {
-          "fecha": "2026-02-27T18:04",
-          "accion": "compra",
-          "cantidad": 1,
-          "precio_unitario": 0
-        },
-        {
-          "fecha": "2026-02-27T18:04",
-          "accion": "compra",
-          "cantidad": 2,
-          "precio_unitario": 0
-        },
-        {
-          "fecha": "2026-02-27T18:04",
-          "accion": "compra",
-          "cantidad": 3,
-          "precio_unitario": 0
-        },
-        {
-          "fecha": "2026-02-27T18:08",
-          "accion": "compra",
-          "cantidad": 5,
-          "precio_unitario": 0
-        },
-        {
-          "fecha": "2026-02-27T18:08",
-          "accion": "compra",
-          "cantidad": 5,
-          "precio_unitario": 0
-        },
-        {
-          "fecha": "2026-02-27T18:08",
-          "accion": "uso",
-          "cantidad": -2,
-          "proyecto": "modificación"
-        },
-        {
-          "fecha": "2026-02-27T18:09",
-          "accion": "uso",
-          "cantidad": -4,
-          "proyecto": "modificación"
-        },
-        {
-          "fecha": "2026-02-27T18:09",
-          "accion": "uso",
-          "cantidad": -6,
-          "proyecto": "modificación"
-        },
-        {
-          "fecha": "2026-02-27T18:09",
-          "accion": "uso",
-          "cantidad": -4,
-          "proyecto": "modificación"
-        },
-        {
-          "fecha": "2026-02-27T18:09",
-          "accion": "compra",
-          "cantidad": 5,
-          "precio_unitario": 0
-        },
-        {
-          "fecha": "2026-02-27T18:09",
-          "accion": "compra",
-          "cantidad": 5,
-          "precio_unitario": 0
-        },
-        {
-          "fecha": "2026-02-27T18:09",
-          "accion": "compra",
-          "cantidad": 10,
-          "precio_unitario": 0
-        },
-        {
-          "fecha": "2026-02-27T18:12",
-          "accion": "uso",
-          "cantidad": -5,
-          "proyecto": "modificación"
-        },
-        {
-          "fecha": "2026-02-27T18:12",
-          "accion": "uso",
-          "cantidad": -5,
-          "proyecto": "modificación"
-        },
-        {
-          "fecha": "2026-02-27T18:13",
-          "accion": "compra",
-          "cantidad": 2,
-          "precio_unitario": 0
-        },
-        {
-          "fecha": "2026-02-27T18:13",
-          "accion": "compra",
-          "cantidad": 2,
-          "precio_unitario": 0
-        }
-      ],
-      "ultima_modificacion": "2026-02-27T18:13",
       "agotado": false
     }
   }
